@@ -5,6 +5,9 @@ div#main-menu {
 	background: blue;
 }
 
+
+/* Topic list item */
+
 div#tabs a {
 	font-size: 18px;
 }
@@ -12,29 +15,44 @@ div#tabs a {
 h2.mainpage {
 	margin-bottom: 30px;
 }
-
 .lenta .subtitle {
 	font-size: 62px;
 	line-height: 100%;
 }
-
 .postcolor {
 	font-size: 16px;
 	/* display: none; */
 }
-
 .holder.newsbottom {
     font-size: 28px;
     height: 100px;
     vertical-align: middle;
 }
 
+/* Topic pagination */
+
+table.row3 tr td[align="left"] {
+	font-size: 32px;
+}
+table.row3 td[align="left"] a {
+	display: inline-block;
+	min-width: 50px;
+	height: 50px;
+	font-size: 32px;
+	text-align: center;
+}
+table.row3 td[align="left"] a:last-child {
+	display: none;
+}
+
+
+/* Some globals */
+
 div#header,
 div#menu-container,
 div#content {
 	max-width: 100% !important;
 }
-
 #android-app,
 #top-line,
 #right-column,
