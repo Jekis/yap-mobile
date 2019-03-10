@@ -1,0 +1,33 @@
+div#main-menu {
+	height: 50px;
+	font-size: 28px;
+	line-height: 50px;
+	background: blue;
+}
+
+div#tabs a {
+	font-size: 18px;
+}
+
+.lenta .subtitle {
+	font-size: 48px;
+	line-height: 56px;
+}
+
+.postcolor {
+	font-size-: 12px;
+}
+
+div#header,
+div#menu-container,
+div#content {
+	max-width: 100% !important;
+}
+
+#top-line,
+#right-column,
+#clk-lt,
+#clk-rt,
+noindex {
+    display: none !important;
+}
