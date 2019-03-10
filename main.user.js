@@ -16,7 +16,7 @@
 
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'https://cdn.jsdelivr.net/gh/jekis/yap-mobile/mobile.css';
+    link.href = 'https://raw.githack.com/Jekis/yap-mobile/master/mobile.css';
     link.media = 'all';
 
     head.appendChild(link);
