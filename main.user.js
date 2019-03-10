@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YaP Mobile
 // @namespace    https://github.com/Jekis
-// @version      0.1
+// @version      0.2
 // @description  Mobile styles fo YaPlakal.ru
 // @author       Jekis
 // @match        https://www.yaplakal.com/*
