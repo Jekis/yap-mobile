@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Mobile styles fo YaPlakal.ru
 // @author       Jekis
-// @match        https://www.yaplakal.com/
+// @match        https://www.yaplakal.com/*
 // @grant        none
 // ==/UserScript==
 
