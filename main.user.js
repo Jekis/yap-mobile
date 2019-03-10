@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         YaPlakal Mobile
-// @namespace    http://tampermonkey.net/
+// @name         YaP Mobile
+// @namespace    https://github.com/Jekis
 // @version      0.1
 // @description  Mobile styles fo YaPlakal.ru
-// @author       You
+// @author       Jekis
 // @match        https://www.yaplakal.com/
 // @grant        none
 // ==/UserScript==
@@ -16,7 +16,7 @@
 
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = '[paste CDN link here]';
+    link.href = 'https://cdn.jsdelivr.net/gh/jekis/yap-mobile/mobile.css';
     link.media = 'all';
 
     head.appendChild(link);
