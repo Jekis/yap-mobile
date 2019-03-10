@@ -9,13 +9,24 @@ div#tabs a {
 	font-size: 18px;
 }
 
+h2.mainpage {
+	margin-bottom: 30px;
+}
+
 .lenta .subtitle {
-	font-size: 48px;
-	line-height: 56px;
+	font-size: 62px;
+	line-height: 100%;
 }
 
 .postcolor {
-	font-size-: 12px;
+	font-size: 16px;
+	/* display: none; */
+}
+
+.holder.newsbottom {
+    font-size: 28px;
+    height: 100px;
+    vertical-align: middle;
 }
 
 div#header,
@@ -24,6 +35,7 @@ div#content {
 	max-width: 100% !important;
 }
 
+#android-app,
 #top-line,
 #right-column,
 #clk-lt,
