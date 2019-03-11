@@ -1,3 +1,8 @@
+span.normalname a {
+	font-size: 24px !important;
+	word-break: break-all;
+}
+
 div#main-menu {
 	height: 50px;
 	font-size: 28px;
@@ -5,8 +10,20 @@ div#main-menu {
 	background: blue;
 }
 
+/* Remove side margins from global containers */
+#header-container,
+#main-menu,
+#ipbwrapper {
+	margin: 0;
+}
 
 /* Topic list item */
+
+
+/* comment divider */
+.darkrow1 + table td {
+	height: 50px;
+}
 
 div#tabs a {
 	font-size: 18px;
