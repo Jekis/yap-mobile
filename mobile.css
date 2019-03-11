@@ -15,6 +15,11 @@ div#main-menu {
 #main-menu,
 #ipbwrapper {
 	margin: 0;
+	padding: 0;
+}
+
+#left-column {
+	padding: 0 5px;
 }
 
 /* Topic list item */
@@ -104,6 +109,7 @@ div#content {
 }
 #android-app,
 #top-line,
+#left-column + td,
 #right-column,
 #clk-lt,
 #clk-rt,
