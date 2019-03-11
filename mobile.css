@@ -47,6 +47,36 @@ table.row3 td[align="left"] a:last-child {
 
 /* Topic comments */
 
+/* Comment time and rating */
+td.row4:nth-child(2) {
+	font-size: 32px;
+}
+
+td.row4:nth-child(2) a {
+	font-size: 24px;
+}
+
+/* Make images, attached in comments, wider */
+div.attach,
+.basic-img.attach {
+	float: none !important;
+}
+.attach img {
+    max-width: 100% !important;
+}
+
+/* Quote table */
+.postcolor + table[align="center"] {
+	width: 100%;
+}
+/* "<b>Цитата</b>" */
+.postcolor + table[align="center"] b {
+	font-size: 32px;
+}
+#QUOTE {
+	font-size: 32px;
+}
+
 
 /* Some globals */
 
