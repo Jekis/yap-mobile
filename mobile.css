@@ -9,6 +9,9 @@ div#main-menu {
 	line-height: 50px;
 	background: blue;
 }
+div#main-menu a#new-post {
+	width: auto;
+}
 
 /* Remove side margins from global containers */
 #header-container,
@@ -30,6 +33,16 @@ div#main-menu {
 	height: 50px;
 }
 
+/* comment user info */
+span.postdetails {
+    font-size: 22px;
+}
+/* comment avatar */
+span.postdetails img {
+    width: 100%;
+    height: auto;
+}
+
 div#tabs a {
 	font-size: 18px;
 }
@@ -41,14 +54,25 @@ h2.mainpage {
 	font-size: 62px;
 	line-height: 100%;
 }
+/* comment content */
 .postcolor {
-	font-size: 16px;
-	/* display: none; */
+	font-size: 32px;
+	max-width: 100%;
+}
+/* first comment in topic (dirty fix for same font-size) */
+form[name="collect"] > table:nth-child(1) .postcolor {
+	font-size-: 12px;
 }
 .holder.newsbottom {
     font-size: 28px;
     height: 100px;
     vertical-align: middle;
+}
+
+/* Topic title */
+
+h1.subpage {
+	font-size: 48px;
 }
 
 /* Topic pagination */
