@@ -3,6 +3,37 @@ span.normalname a {
 	word-break: break-all;
 }
 
+/*
+	Header search form
+*/
+
+#global-search {
+	height: 64px;
+	font-size: 24px;
+	padding-right: 20px;
+}
+#search-type-selector {
+	display: none;
+}
+form[name="search_form"] .cool-button {
+	height: 64px;
+	background: #eee;
+	border-radius: 10px;
+	font-size: 21px;
+	padding: 0;
+}
+form[name="search_form"] .cool-button b {
+	background: none !important;
+	margin-top: 20px;
+}
+#search-image-select + div {
+	display: none;
+}
+
+/*
+	Header menu
+*/
+
 div#main-menu {
 	height: 50px;
 	font-size: 28px;
