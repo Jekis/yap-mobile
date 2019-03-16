@@ -56,12 +56,12 @@ h2.mainpage {
 }
 /* comment content */
 .postcolor {
-	font-size: 32px;
+	font-size: 38px;
 	max-width: 100%;
 }
 /* first comment in topic (dirty fix for same font-size) */
 form[name="collect"] > table:nth-child(1) .postcolor {
-	font-size-: 12px;
+	font-size: 14px;
 }
 .holder.newsbottom {
     font-size: 28px;
@@ -137,6 +137,7 @@ div#content {
 #right-column,
 #clk-lt,
 #clk-rt,
+#footer-informer,
 noindex {
     display: none !important;
 }
